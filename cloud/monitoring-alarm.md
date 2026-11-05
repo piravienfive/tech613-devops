@@ -125,7 +125,7 @@ CloudWatch can send an email when CPU usage is too high.
 Run another load test:
 
 ```bash
-ab -n 100000 -c 100 http://localhost/
+ab -n 20000 -c 300 http://localhost/
 ```
 
 1. Open CloudWatch > Alarms.
