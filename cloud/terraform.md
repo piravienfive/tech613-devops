@@ -154,3 +154,11 @@ Example:
 - It works with multiple cloud providers.
 - It manages dependencies between resources.
 - It makes infrastructure easier to recreate and manage.
+
+## Terraform Commands
+
+- `terraform init` - Initialises Terraform and downloads required providers.
+- `terraform fmt` - Formats Terraform code.
+- `terraform plan` - Shows what Terraform will create or change.
+- `terraform apply` - Creates or updates infrastructure.
+- `terraform destroy` - Deletes infrastructure managed by Terraform.
