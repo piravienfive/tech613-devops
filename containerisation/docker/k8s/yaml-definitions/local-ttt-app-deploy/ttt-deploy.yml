@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ttt-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ttt
+  template:
+    metadata:
+      labels:
+        app: ttt
+    spec:
+      containers:
+        - name: ttt
+          image: piravienfive/tech613-ttt:1.0
+          ports:
+            - containerPort: 3000
